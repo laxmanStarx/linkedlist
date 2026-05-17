@@ -14,7 +14,7 @@ public class nonRepeat {
                 // Skip comparing the element with itself
                 if (i != j && arr[i] == arr[j]) {
                     hasDuplicate = true;
-                    break; // Stop looking, this element repeats
+                    break;
                 }
             }
 
